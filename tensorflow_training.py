@@ -11,4 +11,5 @@ import sys
 
 from sklearn.preprocessing import StandardScaler
 
+assert hasattr(tf, "function") # Be sure to use tensorflow 2.0
 
